@@ -1,12 +1,9 @@
-#include "linkedlistnode.h"
-
-#include <iostream> 
-#include <stdexcept>
-#include <cassert>
+#include <iosteam>
+#include "doublylinkedlist.h"
 
 using namespace std;
 
-int main() {
+int main () {
     LinkedList my_list;
 
     int n = 3;
